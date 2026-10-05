@@ -1,0 +1,2 @@
+# Dataset-Split-Auditor
+A dataset gate that names the records responsible for content and incident leakage. Pass {train,test} records to the CLI, or {records} with --split 0.25 --seed experiment-1. Add --check in CI to return exit2 when the split is unusable.
